@@ -4,7 +4,7 @@ pipeline {
 	PATH= '/opt/maven/bin:$PATH'
 	}
 	stages {
-		stage ('GIT CLONE'} {
+		stage ('GIT CLONE') {
 			steps {
 				git url:"https://github.com/Nagaraju-itachi/ajio.git" , branch:"main"
 			}
